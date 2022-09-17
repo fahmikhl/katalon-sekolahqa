@@ -21,17 +21,18 @@ String str = 'usernamePrivate'
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.urlStaging)
+WebUI.navigateToUrl(GlobalVariable.urlProduction)
 
 WebUI.click(findTestObject('Object Repository/Login/a_Masuk'))
 
+//for(def i=0; i <= 5; i++) {
+//	
+//}
+WebUI.setText(findTestObject('Object Repository/Login/input_Email_email'), username)
 
-for (def row = 1; row <= findTestData('listUser').getRowNumbers(); row++ ) {
+WebUI.setText(findTestObject('Object Repository/Login/input_Password_password'), passowrd)
 
-	WebUI.setText(findTestObject('Object Repository/Login/input_Email_email'), findTestData('listUser').getValue(1, row))
-	WebUI.setText(findTestObject('Object Repository/Login/input_Password_password'), findTestData('listUser').getValue(2, row))
-	WebUI.click(findTestObject('Object Repository/Login/button_MASUK'))
-}
+WebUI.click(findTestObject('Object Repository/Login/button_MASUK'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5114bff3-9b16-4cd9-a669-8fe0ca96f1f4</testSuiteGuid>
+   <testCaseLink>
+      <guid>d67115b4-5b3c-4a6f-ab53-1c19546b8c13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login Cilsy/login cilsy</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d50058fa-e6e8-4e5f-beee-1cb7b441c0cd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/listUser</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d50058fa-e6e8-4e5f-beee-1cb7b441c0cd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>4d334336-77e2-4563-8ef7-906cb055f37d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d50058fa-e6e8-4e5f-beee-1cb7b441c0cd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>13fc5706-70a4-4e48-b243-e79f74c5a98f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
